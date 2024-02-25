@@ -19,3 +19,6 @@ var createCounter = function(init) {
         }
     }
 };
+
+//61ms beats 50.29%
+//51.76 beats 25.68%

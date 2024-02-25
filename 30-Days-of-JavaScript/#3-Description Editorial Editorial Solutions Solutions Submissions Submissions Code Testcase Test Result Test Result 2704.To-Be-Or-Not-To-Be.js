@@ -14,4 +14,7 @@ var expect = function(val) {
          }
      };
  };
+
+ //52ms beats 61.44%
+ //48.19mb beats 54.61%
  

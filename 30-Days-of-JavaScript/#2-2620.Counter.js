@@ -8,3 +8,6 @@ var createCounter = function(n) {
         return n++
     };
 };
+
+//51ms beats 58.58%
+//48.98mb beats 17.51% 
