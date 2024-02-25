@@ -3,22 +3,19 @@
  * @return { increment: Function, decrement: Function, reset: Function }
  */
 var createCounter = function(init) {
-    let val = init;
+    let x = init;
     return {
         increment: function() {
-            val++;
-            return val;
+            return ++x;
         },
         decrement: function() {
-            val--
-            return val;
+            return --x;
         },
         reset: function() {
-            val = init;
-            return val;
+            return x = init;
         }
     }
 };
 
-//61ms beats 50.29%
-//51.76 beats 25.68%
+//49ms beats 95.07%
+//51.87mb beats 20.14%
